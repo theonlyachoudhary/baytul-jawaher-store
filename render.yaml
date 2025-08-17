@@ -17,9 +17,9 @@ services:
           name: medusa-postgres
           property: connectionString
       - key: STORE_CORS
-        value: https://your-storefront-url.onrender.com
+        value: https://baytul-jawaher-storefront.onrender.com
       - key: ADMIN_CORS
-        value: https://your-admin-url.onrender.com
+        value: https://baytul-jawaher-store-admin.onrender.com
       - key: JWT_SECRET
         generateValue: true
       - key: COOKIE_SECRET
